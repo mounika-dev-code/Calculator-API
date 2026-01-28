@@ -16,12 +16,12 @@ It reuses Python functions for basic operations (add, subtract, multiply, divide
 ---
 
 ## Project Structure
-calculator-api/
--calculator.py # Calculator logic(functions)
--main.py # FastAPI API endpoints
--requirements.txt # Python dependencies
--.gitignore # Files to ignore in Git
-
+calculator-api/          # Project root folder
+├── calculator.py        # Calculator logic (functions)
+├── main.py              # FastAPI API endpoints
+├── requirements.txt     # Python dependencies
+├── .gitignore           # Files/folders Git should ignore
+└── README.md            # Project documentation
 
 ## Requirements
 - Python 3.9+
